@@ -11,3 +11,6 @@
 <img width="350" src = "https://user-images.githubusercontent.com/55418359/128818347-91b249d3-1a88-474c-ab13-fd6b890b2d35.PNG">
 
 ------------
+### 백엔드
+- goorm IDE
+- django
