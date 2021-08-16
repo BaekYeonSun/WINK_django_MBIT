@@ -1,2 +1,577 @@
 [
+{
+    "model": "main.developer",
+    "pk": 1,
+    "fields": {
+        "name": "프론트 엔드",
+        "count": 2,
+        "data": 1
+    }
+},
+{
+    "model": "main.developer",
+    "pk": 2,
+    "fields": {
+        "name": "백엔드 개발",
+        "count": 1,
+        "data": 1
+    }
+},
+{
+    "model": "main.developer",
+    "pk": 3,
+    "fields": {
+        "name": "게임 개발",
+        "count": 0,
+        "data": 1
+    }
+},
+{
+    "model": "main.developer",
+    "pk": 4,
+    "fields": {
+        "name": "데이터 분석과 인공지능",
+        "count": 0,
+        "data": 1
+    }
+},
+{
+    "model": "main.developer",
+    "pk": 5,
+    "fields": {
+        "name": "정보보안",
+        "count": 0,
+        "data": 1
+    }
+},
+{
+    "model": "main.question",
+    "pk": 1,
+    "fields": {
+        "number": 1,
+        "content": "당신이 가장 재밌었던 수업은?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 2,
+    "fields": {
+        "number": 2,
+        "content": "여러분의 서비스가 성공하였다면, 서비스를 성공시킨 요소는?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 3,
+    "fields": {
+        "number": 3,
+        "content": "오류가 생겼습니다. 모두의 중요도가 동일하다고 할 때 당신이 먼저 처리할 오류는?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 4,
+    "fields": {
+        "number": 4,
+        "content": "당신이 만약 웹 서비스를 만들었을 때, 가장 듣기 좋을 것 같은 칭찬은?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 5,
+    "fields": {
+        "number": 5,
+        "content": "당신은 영양제를 구입하려고 합니다. 당신이 가장 먼저 고려할 것은?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 6,
+    "fields": {
+        "number": 6,
+        "content": "당신이 망해가는 빵집을 인수했습니다. 당신이 가장 먼저 시작할 일은?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 7,
+    "fields": {
+        "number": 7,
+        "content": "당신은 친구에게 크리스마스 스웨터를 선물해 주기로 했습니다. 당신의 선택은?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 8,
+    "fields": {
+        "number": 8,
+        "content": "당신은 음료 회사의 잘나가는 직원으로, 사장님이 당신에게 신메뉴 개발을 일임하겠다고 합니다. 당신의 음료 개발 방법은?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 9,
+    "fields": {
+        "number": 9,
+        "content": "당신은 바다에 놀러왔습니다. 성공적인 여행을 위해 가장 먼저 해야할 것은?"
+    }
+},
+{
+    "model": "main.question",
+    "pk": 10,
+    "fields": {
+        "number": 10,
+        "content": "당신은 친구의 집들이에 가려고 합니다. 당신이 선택한 선물은?"
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 1,
+    "fields": {
+        "content": "프론트엔드(HTML, CSS, Javascript, etc)",
+        "question": 1,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 2,
+    "fields": {
+        "content": "게임 개발(유니티, 언리얼, Pygame)",
+        "question": 1,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 3,
+    "fields": {
+        "content": "백엔드 또는 인프라(C계열-닷넷, JAVA-Spring, Python-Django, Network, Ubuntu, CentOS, 부하분산, etc)",
+        "question": 1,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 4,
+    "fields": {
+        "content": "정보보안(해킹과 방어)",
+        "question": 1,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 5,
+    "fields": {
+        "content": "데이터 분석과 인공지능(전처리, 분석, 시각화, 머신러닝, 딥러닝)",
+        "question": 1,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 6,
+    "fields": {
+        "content": "데이터 분석을 통한 효과적인 개인 맞춤형 서비스",
+        "question": 2,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 7,
+    "fields": {
+        "content": "화려하거나 품격있는 디자인, 흥미로운 콘텐츠 제작",
+        "question": 2,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 8,
+    "fields": {
+        "content": "게임적인(Gamification, 게이미피케이션) 요소 도입",
+        "question": 2,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 9,
+    "fields": {
+        "content": "안정적인 서비스 운용",
+        "question": 2,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 10,
+    "fields": {
+        "content": "믿을 수 있는 정보 관리",
+        "question": 2,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 11,
+    "fields": {
+        "content": "서브 페이지 화면 로딩 시간이 딜레이되는 현상",
+        "question": 3,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 12,
+    "fields": {
+        "content": "데이터 분석을 통한 맞춤형 광고 서비스 오류",
+        "question": 3,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 13,
+    "fields": {
+        "content": "홈페이지 화면의 뒤틀린 이미지, 폰트 깨짐 현상",
+        "question": 3,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 14,
+    "fields": {
+        "content": "(개인정보 보호법에는 저촉되지 않지만) 민감 정보가 노출되는 현상",
+        "question": 3,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 15,
+    "fields": {
+        "content": "오류가 발생했을 때 할 수 있는 게임",
+        "question": 3,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 16,
+    "fields": {
+        "content": "웹 서비스 디자인의 화려함, 유려함, 섬세함 > 친구 개발자 : \"네가 만든 사이트 진짜 예쁘다!\"",
+        "question": 4,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 17,
+    "fields": {
+        "content": "웹 서비스의 기능 > 친구 개발자 : \"동시 접속이 1천명인데 이렇게 빠르다고?\" 또는 \"SNS 로그인이 다 들어가 있네. 난 요즘 이런게 편하더라.\"",
+        "question": 4,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 18,
+    "fields": {
+        "content": "시큐어 코딩 > 해커 친구 : \"보안 취약점이 없는 완벽한 시큐어코딩이야. 너의 사이트는 완벽해.\"",
+        "question": 4,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 19,
+    "fields": {
+        "content": "데이터 분석과 서비스의 인공지능 응용 > 친구 개발자: \"서비스를 해보니 내가 원하는 광고가 나오더라고\" 또는 \"회원수 2만명인 중고사이트에 마약같은 불법게시물이 하나도 없다고?\"",
+        "question": 4,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 20,
+    "fields": {
+        "content": "흥미유발 및 재미요소 > 친구 게이머 : \"사이트에 있는 그 게임 때문에, 2박 3일동안 잠도 자지 못했어.\"",
+        "question": 4,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 21,
+    "fields": {
+        "content": "일단 효과가 좋은걸 사자! 고농축 영양제 구매",
+        "question": 5,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 22,
+    "fields": {
+        "content": "화려한 상품 상세 페이지가 내 눈을 사로잡는다. 이걸로 사야지!",
+        "question": 5,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 23,
+    "fields": {
+        "content": "동일한 영양제 함량을 제조사별로 비교해봐야지",
+        "question": 5,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 24,
+    "fields": {
+        "content": "믿을 수 있는 영양제가 맞나? 꼼꼼하게 따져봐야겠어",
+        "question": 5,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 25,
+    "fields": {
+        "content": "맛없으면 결국 안 먹어! 젤리로 된 제품은 없나?",
+        "question": 5,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 26,
+    "fields": {
+        "content": "\"어떤 빵이 제일 잘 나갈까?\" 수요를 조사해서 새로운 메뉴 만들기",
+        "question": 6,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 27,
+    "fields": {
+        "content": "\"빵집은 빵이 맛있어야지!\" 효율이 좋은 새 오븐 사기",
+        "question": 6,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 28,
+    "fields": {
+        "content": "\"일단 이벤트를 통해 손님을 모아야 해!\" 파격 세일 이벤트 등 새로운 이벤트 만들기",
+        "question": 6,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 29,
+    "fields": {
+        "content": "\"요즘은 레트로 갬성이지~\" 유행이 다시 돌아온 90년대 간판 설치하기",
+        "question": 6,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 30,
+    "fields": {
+        "content": "\"음식을 파는 곳은 당연히 깨끗해야지!\" 위생과 안전을 위해 세X코, 캡X 등록하기",
+        "question": 6,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 31,
+    "fields": {
+        "content": "난 내 눈을 믿는다 너한테 가장 잘 어울리는 옷은 내가 알아!",
+        "question": 7,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 32,
+    "fields": {
+        "content": "겨울옷은 따뜻해야지~ 기능 중시! 이번 겨울 최고 한파래",
+        "question": 7,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 33,
+    "fields": {
+        "content": "두뇌 풀가동! 지금까지 친구가 입었던 니트류 옷을 알아낸다.",
+        "question": 7,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 34,
+    "fields": {
+        "content": "알러지가 생길 수 있으니 꼼꼼하게 성분 표시를 읽고 알러지 프리 제품을 사줘야지!",
+        "question": 7,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 35,
+    "fields": {
+        "content": "잊지 못할 재미있는 선물을 줘야지! 반짝이는 전구 달린 어글리 스웨터",
+        "question": 7,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 36,
+    "fields": {
+        "content": "손님들의 눈길을 확 끌어보자! 요즘 유행하는 화려한 디자인으로 포장한 음료!",
+        "question": 8,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 37,
+    "fields": {
+        "content": "고객신뢰가 최우선! 프랜차이즈 매장마다 레시피가 다르면 안 되니까 정확한 용량과 제조법은 필수!",
+        "question": 8,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 38,
+    "fields": {
+        "content": "인기 많은 음료 싹 가지고 와! 왜 인기가 있었는지, 인기 요인을 찾아보자!",
+        "question": 8,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 39,
+    "fields": {
+        "content": "요즘은 홍보로 반은 먹고 들어가지! SNS 챌린지 이벤트로 사람들의 관심을 끌자!",
+        "question": 8,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 40,
+    "fields": {
+        "content": "레시피를 만드는 것도 중요하지만, 우리만의 독자적인 레시피가 새어나가지 않게 조심해야 해!",
+        "question": 8,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 41,
+    "fields": {
+        "content": "일단 파라솔이랑 음식 세팅! 사진 잘 찍어서 SNS에 여행 온 거 자랑해야지!",
+        "question": 9,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 42,
+    "fields": {
+        "content": "여행 왔는데 짐을 잃어버리면 낭패지! 락커룸이 어디 있는지 찾아보자!",
+        "question": 9,
+        "developer": 5
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 43,
+    "fields": {
+        "content": "준비물은 다 챙겨왔지? 빠뜨린 거 없는지 다시 확인하자!",
+        "question": 9,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 44,
+    "fields": {
+        "content": "이왕 온 거 유명한 건 다 해 봐야지! 근처에 어떤 맛집이 있는지 알아보자!",
+        "question": 9,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 45,
+    "fields": {
+        "content": "그냥 노는 건 재미없잖아? 비치볼 게임 하면서 놀자!",
+        "question": 9,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 46,
+    "fields": {
+        "content": "집 꾸미기에 도움이 되는 예쁜 인테리어 소품을 골라볼까?",
+        "question": 10,
+        "developer": 1
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 47,
+    "fields": {
+        "content": "실용성이 갑이지! 화장지랑 수건 세트랑...",
+        "question": 10,
+        "developer": 2
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 48,
+    "fields": {
+        "content": "음... 우선 센스있는 집들이 선물 먼저 검색해봐야지!",
+        "question": 10,
+        "developer": 4
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 49,
+    "fields": {
+        "content": "집들이 가서 뭐하겠어! 보드 게임이나 사 가자!",
+        "question": 10,
+        "developer": 3
+    }
+},
+{
+    "model": "main.choice",
+    "pk": 50,
+    "fields": {
+        "content": "역시 집은 안전이 최고!! 현관문 보안장치 사줘야겠다.",
+        "question": 10,
+        "developer": 5
+    }
+}
 ]
