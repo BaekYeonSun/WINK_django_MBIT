@@ -29,5 +29,5 @@
 - URL 복사하기
 <img width="350" src = "https://user-images.githubusercontent.com/55418359/129623889-2237ac46-e88c-439a-bd49-694e41f4d874.PNG">
 
-- 페이스북 공유하기
+- 페이스북 공유하기 
 <img width="350" src = "https://user-images.githubusercontent.com/55418359/129623881-ad305820-6703-4dc7-b79d-d900e0bc410c.PNG">
