@@ -1,4 +1,4 @@
-# WINK_django_MBIT 백연선
+# WINK_django_MBIT
 ------------
 ### 프론트엔드
 - 메인페이지
