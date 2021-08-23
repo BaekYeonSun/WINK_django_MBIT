@@ -31,3 +31,18 @@
 
 - 페이스북 공유하기 
 <img width="350" src = "https://user-images.githubusercontent.com/55418359/129623881-ad305820-6703-4dc7-b79d-d900e0bc410c.PNG">
+
+
+------------
+### 결과 페이지 완성하기
+- 결과페이지 수정
+<img width="350" src = "https://user-images.githubusercontent.com/55418359/130398755-ac003973-6c4a-471f-82c7-ed2fee6b8c64.PNG">
+
+- 전체 결과페이지
+<img width="350" src = "https://user-images.githubusercontent.com/55418359/130398749-612e9126-6249-401c-9591-ef5ee743f6d5.PNG">
+
+- 카카오톡 공유하기
+<div>
+    <img width="350" alt="Kakao Developers" src = "https://user-images.githubusercontent.com/55418359/130399548-58179869-3684-4d25-be5a-20988d7ef712.PNG">
+    <img width="350" src = "https://user-images.githubusercontent.com/55418359/130399544-f794a475-95dd-46af-bbcc-5936c61f44aa.PNG">
+</div>
